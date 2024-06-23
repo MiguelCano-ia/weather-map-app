@@ -49,6 +49,7 @@ const apiKey = '6e3791aa88851a5580fa209465275cce';
 weatherForm.addEventListener("submit", async (event) => {
   event.preventDefault();
   const city = input.value;
+  weatherForm.reset();
 
   if (city) {
     try{
